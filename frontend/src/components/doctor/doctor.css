@@ -1,0 +1,12 @@
+.sAndC2{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: white;
+    height: 100vh;
+}
+
+.do {
+    position: fixed;
+    overflow: hidden;
+}

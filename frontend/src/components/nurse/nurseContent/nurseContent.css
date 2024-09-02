@@ -1,0 +1,7 @@
+.nurseContent {
+    overflow: scroll;
+    position: relative;
+    left: 20.5vw;
+    z-index: 1000;
+    width: 78.2vw;
+}

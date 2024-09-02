@@ -1,0 +1,31 @@
+.side1 {
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #408ab4;
+    color: white;
+    border-right: 1px solid rgba(0, 247, 255, 0.15);
+    position: fixed;
+    z-index: 1000;
+}
+
+.elm1 {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.l1 {
+    font-size: medium;
+    border: none;
+    color: white;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.l1:hover {
+    color: #0056b3;
+    padding-bottom: 0.1rem;
+}

@@ -1,0 +1,34 @@
+#about{
+    background-color: rgb(103, 211, 206);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digital{
+    position: absolute;
+    left: 3rem;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.para{
+    position: absolute;
+    right: 3.5rem;
+    color: #333;
+    font-size: large;
+    font-weight: 400;
+    width: 40vw;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}

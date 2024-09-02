@@ -1,0 +1,71 @@
+.navbar {
+    background-color: rgb(103, 211, 206);
+    height: 5.7rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    top: 1.5rem;
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+.menuItem {
+    font-size: 1.4rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.desktopMenu {
+    position: absolute;
+    top: 2.5rem;
+    right: 15rem;
+}
+
+.menuItem:hover {
+    color: rgb(0, 242, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(0, 242, 255);
+}
+
+.title {
+    position: absolute;
+    top: 2.3rem;
+    left: 7rem;
+    font-size: 1.4rem;
+}
+
+.registre {
+    position: absolute;
+    top: 1.7rem;
+    right: 4rem;
+    font-size: medium;
+    color: rgb(0, 217, 255);
+    height: 3rem;
+    width: 9rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.registre:hover {
+    color: #0056b3;
+    padding-bottom: 0.1rem;
+    border-bottom: 3px solid #0056b3;
+}
