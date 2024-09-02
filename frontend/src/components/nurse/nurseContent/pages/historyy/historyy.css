@@ -1,0 +1,70 @@
+.serchConsu {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    gap: 5px;
+    width: 60vw;
+    margin: 7px;
+}
+
+.row1 {
+    display: flex;
+    gap: 10px;
+}
+
+.row1 input[type="text"] {
+    flex: 1;
+    /* Makes each element take up equal space */
+}
+
+.serchConsu input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Include padding and border */
+}
+
+.serchConsu button {
+    width: 20%;
+    height: 5.3vh;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#history {
+    color: #333;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.serchConsu button:hover {
+    color: #ffffff;
+    background-color: rgb(255, 127, 138);
+}
+
+.btnh {
+    width: 80%;
+    height: 4.3vh;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnh:hover {
+    color: #ffffff;
+    background-color: rgb(255, 127, 138);
+}
