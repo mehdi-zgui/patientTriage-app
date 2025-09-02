@@ -1,4 +1,3 @@
 # patientTriage-app
 
-The app aims to triage patients based on their symptoms using artificial intelligence to provide a quick, initial assessment of severity. Additionally, it features AI that analyzes radiographs to provide an initial diagnosis. Using ReactJs for the front-end , python(Flask) for the back-end.
-
+patientTriage-app est un prototype d’application de triage médical qui combine une interface web intuitive (ReactJS) et un back-end léger (Flask) pour offrir un outil d’aide à la décision clinique. Les utilisateurs saisissent les symptômes et informations de base ; le système envoie ces données à un module d’IA qui renvoie une priorité de triage (ex. urgent / modéré / à surveiller). L’application inclut un tableau de bord pour le suivi des patients, la gestion des dossiers et l’export de rapports anonymisés. Conçue comme outil d’aide (non substitut au jugement médical), elle vise à accélérer le parcours patient en contexte hospitalier ou en centre de soins.
