@@ -70,9 +70,6 @@ L’objectif principal est d’aider les professionnels de santé à **prioriser
 
 ## ⚙️ Installation
 
-```bash
-# Clone du projet
-git clone https://github.com/your-username/project-name.git
 
 # Backend
 cd backend
